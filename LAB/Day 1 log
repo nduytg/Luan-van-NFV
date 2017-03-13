@@ -1,0 +1,18 @@
+Day 1 - Set up cơ bản
+
+Cài đặt hệ thống NFV thử nghiệm theo mô hình 3 node.
+OpenStack: 2 node
++ 1 Controller - IBM
+Phần cứng
+Server: IBM X3100 M5
+Core: Xeon E3
+HDD: 4TB
+Memory: 16GB
+
+Cấu hình cài đặt
+Hostname: OpenStack-Controller
+User: controller
+Pass: Pa$$w0rd
+
++ 1 Compute
+OPNFV: 1 node
