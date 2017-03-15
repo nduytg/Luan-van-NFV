@@ -1,4 +1,8 @@
-# Tìm hiều về OpenDayLight
+# Tìm hiểu về OpenDayLight
 
-# Tham khảo
+## 1.Giới thiệu về OpenDayLight
+OpenDayLight là một SDN Controller mã nguồn mở
+
+
+## Tham khảo
 https://www.opendaylight.org/cloud-and-nfv
