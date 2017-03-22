@@ -1,4 +1,6 @@
 # Luận-văn-NFV-2017
+      *(´･ω･`) ( ´･ω･) (　´･ω) ( 　 ´･) ( 　　´) (　　　) (`　　 ) (･`　　) (ω･`　) (･ω･` ) (´･ω･`)
+      
 Triển khai mô hình thử nghiệm cho luận văn OpenStack - MMT&amp;VT - ĐH KHTN
 
 Hiện mình mới convert chương 1 từ google doc sang file .md.
