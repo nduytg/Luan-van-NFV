@@ -169,45 +169,7 @@ Theo hãng phân tích IHS Infonetics, thị trường (NFV) sẽ tăng trưởn
 
 # Bố cục luận văn
 
-Luận văn này sẽ tập trung tìm hiểu công nghệ ảo hóa chức năng mạng NFV (chương 2) cũng như là sự kết hợp của NFV với các công nghệ tiên tiến khác như Software-defined Network và Container (Chương 3). Sau đó, nhóm thực hiện sẽ tìm hiểu các mô hình, giải pháp triển khai hệ thống NFV hiện có tính đến thời điểm của luận văn này (Chương 4). Cuối cùng, nhóm thực hiện sẽ triển khai một mô hình thử nghiệm và phát triển một số thành phần cho mô hình này (Chương 5,6). Các thuật ngữ, định nghĩa và kiến trúc tổng quát của NFV sẽ chủ yếu dựa theo tiêu chuẩn của Viện Tiêu chuẩn Viễn thông Châu Âu (ETSI). Luận văn được chia thành nhiều chương như sau:
-
-* Chương 1: Giới thiệu tổng quan về đề tài.
-
-* Chương 2: Giới thiệu về kiến trúc tổng quan của NFV. 
-
-* Chương 3: Sự kết hợp giữa NFV và các công nghệ khác.
-
-    * SDN
-
-    * Container
-
-* Chương 4: Giới thiệu một số mô hình triển khai NFV. 
-
-    * Nên đề cập một số vấn đề cần cân nhắc trước khi triển khai
-
-        * Performance
-
-            * CPU: CPU Pinning
-
-            * Memory: Huge Pages, NUMA
-
-            * Network: Linux NAPI, DPDK, SR-IOV, PCI-Passthrough
-
-        * Network PoPs (cluster ở nhiều địa điểm)
-
-        * Các vần đề gặp phải khi khởi tạo và migrate các Virtual Appliance
-
-            * Khởi tạo tại PoP nào? (Mặc dù phần cứng bên dưới đã được abstract, nhưng vẫn phải có 1 cơ chế nào đó để biết VNF đặt ở data center nào để tối ưu?
-
-            * Chi phí di dời các VM
-
-            * Có gián đoạn đường truyền khi scale-up, scale down hệ thống hay ko?
-
-* Chương 5: Triển khai thử nghiệm mô hình.
-
-* Chương 6: Phát triển tính năng cho NFV.
-
-* Chương 7: Tổng kết và đánh giá.
+(Đã giấu)
 
 Ngoài ra, do hạn hẹp về thời gian nên nhóm chưa thể tìm hiểu chuyên sâu tất cả các vấn đề, còn một số vấn đề về việc tối ưu hóa hệ thống, ứng dụng containter, monitor và logging… (đoạn này sẽ cho vô khúc cuối cùng của luận văn).
 
