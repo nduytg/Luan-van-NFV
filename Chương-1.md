@@ -1,16 +1,6 @@
----
-title: Chương 1
-layout: post
-author: nduytg
-permalink: /Luận văn
-source-id: 1_BrIrW6mQLABn7TvtB68C-YgTxgaHdGyXmGcrkAw4CE
-published: true
----
-Chương 1
+# Chương 1
 
-*Giới thiệu sơ lược về NFV và thực trạng mạng hiện nay*
-
-[[TOC]]
+###### *Giới thiệu sơ lược về NFV và thực trạng mạng hiện nay*
 
 # Giới thiệu đề tài
 
@@ -24,15 +14,15 @@ Trong thời đại hiện nay, sự ra đời của các công nghệ mới nh�
 
 ![image alt text]({{ site.url }}/public/QoJjYCYO0CEhE5KKE7fQ_img_0.jpg)
 
-*Nhu cầu của các stakeholders*
+                   *Nhu cầu của các stakeholders*
 
-*Vậy thì liệu có cách nào để giải quyết được bài toán trên hay không?** *
+      *Vậy thì liệu có cách nào để giải quyết được bài toán trên hay không?** *
 
 Câu trả lời là có. Giải pháp ở đây chính là ứng dụngcông nghệ ảo hóa (Virtualization) vào hạ tầng mạng trong các Datacenter, các Network Node trên đường truyền và tại nhà của người dùng cuối bằng công nghệ Ảo hóa Chức năng Mạng (Network Function Virtualization - NFV).
 
 Công nghệ NFV cho phép ta tách biệt các hàm chức năng mạng (Network Function) như: NAT, Firewall, Intrusion Detection, DNS, Caching,... khỏi các thiết bị vật lý chuyên biệt và triển khai dưới hình thức phần mềm có thể chạy trong môi trường ảo hóa trên các thiết bị vật lý phổ thông hơn. Các thiết bị vật lý lúc này có thể là các high-volume servers, switches và storages được sản xuất theo các tiêu chuẩn công nghiệp chung. Việc này sẽ giúp ta giảm chi phí đầu tư và sự phụ thuộc vào các thiết bị phần cứng chuyên biệt của từng hãng phần cứng như trước đây. Đồng thời, các nhà mạng có thể khởi tạo, điều phối và di dời các hàm chức năng mạng, các dịch vụ mạng một cách linh hoạt hơn từ đó tận dụng tốt hơn hạ tầng phần cứng đã đầu tư. Không chỉ chi phí đầu tư mà cả chi phí vận hành, bảo dưỡng và nâng cấp thiết bị sau này cũng sẽ được cắt giảm đáng kể.
 
-*Một trong những nhà mạng lớn ở Mỹ hiện nay là AT&T đã tuyên bố rằng hãng sẽ ảo hóa 75% hạ tầng mạng của mình vào năm 2020 bằng cách ứng dụng công nghệ NFV và SDN (Software-defined Networking).*
+      *Một trong những nhà mạng lớn ở Mỹ hiện nay là AT&T đã tuyên bố rằng hãng sẽ ảo hóa 75% hạ tầng mạng của mình vào năm 2020 bằng cách ứng dụng công nghệ NFV và SDN (Software-defined Networking).*
 
 # Lịch sử NFV
 
@@ -89,7 +79,7 @@ Công nghệ NFV cho phép ta tách biệt các hàm chức năng mạng (Networ
 </table>
 
 
-*Bảng so sánh giữa NFV và hạ tầng mạng truyền thống*
+        *Bảng so sánh giữa NFV và hạ tầng mạng truyền thống*
 
 # Lợi ích của NFV
 
@@ -107,7 +97,7 @@ Từ những lợi ích trên, ETSI đã đề xuất ra một số use-case c�
 
 ![image alt text]({{ site.url }}/public/QoJjYCYO0CEhE5KKE7fQ_img_1.png)
 
-*Một số usecase tiêu biểu của NFV*
+      *Một số usecase tiêu biểu của NFV*
 
 1. NFVI as a Service: các Service Provider cung cấp hạ tầng ảo hóa chức năng mạng  (NFV Infrastructure) của mình cho các Service Provider khác sử dụng lại như một dịch vụ điện toán đám mây theo mô hình IaaS (Infrastructure as a Service).
 
