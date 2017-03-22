@@ -1,6 +1,6 @@
-#OPNFV Install Guide
+#OPNFV Install Guide#
 
-##1. Phần cứng làm lab (Nhóm dựng lab bare metal, ko phải trên VM)
+##1. Phần cứng làm lab (Nhóm dựng lab bare metal, ko phải trên VM)##
 
 Cài đặt hệ thống OPNFV thử nghiệm theo mô hình 3 node.
 + 1 Fuel Jumphost
@@ -19,13 +19,14 @@ HDD: 500GB
 Memory: 1x4GB
 
 
-##2. Các bước cài đặt OPNFV
+##2. Các bước cài đặt OPNFV##
 
 Hiện trên trang chủ của OPNFV có 4 cách cài đặt OPNFV (bản Colorado) và nhóm chọn cách cài đặt OpenStack bằng Fuel (tool native của OpenStack)
 
 1/ Đầu tiên, ta cần download file iso của OPNFV từ đây: (ISO)[https://www.opnfv.org/software/downloads] (1 file duy nhất được đóng gói sẵn)
 
 2/ Đánh USB cài đặt bằng Rufus
+<img src="http://imgur.com/uOaXhZb">
 
 3/ Chuẩn bị môi trường cài đặt
 
@@ -40,6 +41,8 @@ Hiện trên trang chủ của OPNFV có 4 cách cài đặt OPNFV (bản Colora
 => Nhà nghèo thì với cho hết vô 1 NIC/node, dc thì nên chia ra
 Note: tắt DHCP cho Router tổng. (Master Node sẽ đóng vai trò PXE Server).
 Mô hình (ko HA)
-1 Fuel master
-1 controller
-1 compute
+<ul>
+<li>1 Fuel master</li>
+<li>1 controller</li>
+<li>1 compute</li>
+</ul>
