@@ -121,7 +121,7 @@ Trong môi trường thực tế tại Việt Nam, nhóm nghiên cứu nhận th
 
 * Đối với các **nhà cung cấp dịch vụ Internet và viễn thông** như Viettel, VNPT, FPT, CMC,...
 
-    * Ảo hóa hạ tầng mạng Mobile Core Network, IMS và Mobile Base Station kết hợp với công nghệ SDN: triển khai, quản lý các dịch vụ di động/ di động viễn thông dễ dàng, nhanh chóng, linh hoạt và tối ưu hơn trên hạ tầng mạng viễn thông/di động trên nền phần cứng COTS (Commercial off the Shell).
+    * Ảo hóa hạ tầng mạng Mobile Core Network, IMS và Mobile Base Station kết hợp với công nghệ SDN: triển khai, quản lý các dịch vụ viễn thông di động dễ dàng, nhanh chóng, linh hoạt và tối ưu hơn trên nền hạ tầng phần cứng COTS (Commercial off the Shell).
 
     * Fixed Access Network Functions Virtualisation: Tối ưu hóa việc truyển dẫn cũng như cắt giảm chi phí nếu có thể chia sẻ tài nguyên về hạ tầng kết nối với nhau.
 
@@ -135,7 +135,7 @@ Trong môi trường thực tế tại Việt Nam, nhóm nghiên cứu nhận th
 
 * Đối với các công ty cung cấp **hosting/public cloud **như: Vinahost, Vinadata, CMC, vHost,….
 
-    * NFVIaaS hoặc Virtual Network Platform as a Service cho các nhà cung cấp dịch vụ sử dụng để tự xây dựng dịch vụ mạng của riêng mình.
+    * NFVIaaS hoặc Virtual Network Platform as a Service: xây dựng cloud để cho các nhà cung cấp dịch vụ sử dụng để họ tự xây dựng dịch vụ mạng của riêng mình.
 
     * VNF as a Service cung cấp dịch vụ mạng như: Load balance, Firewall,... cho các doanh nghiệp khác.
 
