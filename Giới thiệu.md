@@ -1,5 +1,3 @@
-# Chương 1
-
 ###### *Giới thiệu sơ lược về NFV và thực trạng mạng hiện nay*
 
 # Giới thiệu đề tài
@@ -157,11 +155,6 @@ Theo hãng phân tích IHS Infonetics, thị trường (NFV) sẽ tăng trưởn
 
     * Quá trình chuyển đổi hạ tầng mạng của AT&T (Mỹ)
 
-# Bố cục luận văn
-
-(Đã giấu)
-
-Ngoài ra, do hạn hẹp về thời gian nên nhóm chưa thể tìm hiểu chuyên sâu tất cả các vấn đề, còn một số vấn đề về việc tối ưu hóa hệ thống, ứng dụng containter, monitor và logging… (đoạn này sẽ cho vô khúc cuối cùng của luận văn).
 
 # Tham khảo
 
