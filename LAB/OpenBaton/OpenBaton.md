@@ -26,7 +26,7 @@ Sau đó thực hiện bộ test tính tương thích của OpenBaton: https://g
 http://openbaton.github.io/documentation/vim-instance/
 
 *Sample: 
-https://github.com/ttcong/Luan-van-NFV/LAB/OpenBaton/Register-PoP.json
+https://github.com/ttcong/Luan-van-NFV/blob/master/LAB/OpenBaton/Register-PoP.json
 
 Tất cả các thông tin đều phụ thuộc vào Project(Tennant)/UserName-Pass/authUrl/SecurityGroup/Location(Region) của OpenStack.
 KeyPair là keypair import từ Openstack. KeyPair không có thì phải để null tuy nhiên nên có.
