@@ -24,4 +24,5 @@ VIM INSTANCE (Or Point of Presence) REGISTRATION
 Đăng kí (hay kết nối) với các hạ tầng NFVI sẽ sử dụng. Việc đăng kí có thể sử dụng CLI hoặc Dashboard. Log quá trình đăng kí trong /var/log/openbaton/openbaton.log và ./plugin-logs/plugin-[tên VIM types sử dụng].log
 
 http://openbaton.github.io/documentation/vim-instance/
+
 Sample: 
