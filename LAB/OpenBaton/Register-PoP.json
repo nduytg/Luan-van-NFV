@@ -1,0 +1,17 @@
+{  
+   "name":"DevStack",
+   "authUrl":"http://10.0.0.4:5000/v2.0",
+   "tenant":"admin",
+   "username":"admin",
+   "password":"12345678",
+   "keyPair":"openbaton",
+   "securityGroups":[  
+      "admins"
+   ],
+   "type":"openstack",
+   "location":{  
+      "name":"RegionOne",
+      "latitude":"",
+      "longitude":""
+   }
+}
