@@ -6,8 +6,9 @@ OpenBaton release 3.0 có 2 phiên bản:
 + Stable: http://openbaton.github.io/documentation/nfvo-installation-deb/ (recommended)
 + For Dev: http://openbaton.github.io/documentation/nfvo-installation-src/
 
-*Note: Nếu chỉ để thử nghiệm thì chỉ cần NFVO, Generic VNFM, VIM Driver (OpenStack và Test) và CLI.
-
+*Note: 
++ Nếu chỉ để thử nghiệm thì chỉ cần NFVO, Generic VNFM, VIM Driver (OpenStack và Test) và CLI.
++ Một số issue có thể xin xem phần issue.
 # FIRST CONFIGURATION
  http://openbaton.github.io/documentation/nfvo-configuration/
 
