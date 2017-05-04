@@ -50,14 +50,17 @@ Note:
 5.  Cài đặt Fuel trên JumpHost
 Boot JumpHost từ USB.
 
+< chèn hình >
 Ấn Tab để điều chỉnh.
 Do OPNFV Colorado 3.0 đã bỏ option Fuel USB Installation, ta đổi 2 instance từ cdrom thành hd:sdc1:/ (với sdc1 là phân vùng usb tùy vào từng máy).
 inst.repo = hd:sdc1:/
 inst.ks = hd:sdc1:/ks.cfg
-https://ask.opnfv.org/question/1203/error-while-installing-colorado-fuel-from-usb/
+
+Chi tiết: https://ask.opnfv.org/question/1203/error-while-installing-colorado-fuel-from-usb/
 
 Còn lại theo hướng dẫn của OPNFV:
 http://artifacts.opnfv.org/fuel/colorado/3.0/docs/installationprocedure/index.html#document-installation.instruction#opnfv-software-installation-and-deployment
+
 Note: Nhấn check ở từng bước nhất là các bước Network Setup, DNS & Hostname và Bootstrap Image. 
 
 Lỗi có thể có: Bootstrap Image Build Fail:
@@ -65,6 +68,21 @@ Lỗi có thể có: Bootstrap Image Build Fail:
 File "/etc/fuel-bootstrap-cli/fuel_bootstrap_cli.yaml" cấu hình sai hoặc 127.0.0.1:8080 chạy web server để build bootstrap image có vấn đề ? 
 https://ask.opnfv.org/question/1301/fail-to-build-bootstrap-image-in-the-first-booting/
 
-[Giải pháp tạm thời]
+[Giải pháp]
 Tham khảo file /etc/fuel-bootstrap-cli/fuel_bootstrap_cli.yaml.sample để cấu hình lại file “/etc/fuel-bootstrap-cli/fuel_bootstrap_cli.yaml” với link trực tiếp thay vì localhost như mặc định.
+
+Do thiếu phần cứng nên nhóm ko thể tiếp tục triển khai tiếp OPNFV mà chuyển sang cài đặt mô hình bằng tay.
+Hy vọng nếu còn thời gian, nhóm có thể thực hiện tiếp việc triển khai OPNFV này.
+......
+
+## Tham khảo
+So sánh các cách cài đặt OPNFV
+https://blog.vietstack.vn/OPNFV-Installer-Compare/
+
+OPNFV Colorado
+https://www.opnfv.org/software/downloads
+
+Fuel Complete: 
+https://docs.openstack.org/developer/fuel-docs/userdocs/fuel-install-guide/install/install_install_fuel_master_node.html
+
 
