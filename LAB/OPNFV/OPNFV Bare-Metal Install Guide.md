@@ -31,7 +31,7 @@ Hiện trên trang chủ của OPNFV có 4 cách cài đặt OPNFV (bản Colora
 
 3/ Chuẩn bị môi trường cài đặt
 
-5 VLAN (4 tagged Chu+ 1 untagged):
+5 VLAN (4 tagged + 1 untagged):
 <ul>
 <li>PUBLIC</li>
 <li>MGMT</li>
