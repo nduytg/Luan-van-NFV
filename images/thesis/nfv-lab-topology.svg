@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 600">
+  <style>
+    .title { font: 700 32px 'DejaVu Sans', Arial, sans-serif; fill: #004d40; }
+    .label { font: 600 18px 'DejaVu Sans', Arial, sans-serif; fill: #0d2a26; }
+    .detail { font: 500 15px 'DejaVu Sans', Arial, sans-serif; fill: #37474f; }
+    .box { fill: #e8f5e9; stroke: #2e7d32; stroke-width: 2.5; rx: 14; ry: 14; }
+    .network { fill: #fff3e0; stroke: #ef6c00; stroke-width: 2; rx: 18; ry: 18; }
+    .arrow { stroke: #2e7d32; stroke-width: 3; marker-end: url(#arrowhead); }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="12" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#2e7d32" />
+    </marker>
+  </defs>
+  <text class="title" x="480" y="60" text-anchor="middle">OpenStack-based NFV Lab Topology</text>
+
+  <rect class="network" x="120" y="110" width="720" height="140" />
+  <text class="label" x="480" y="150" text-anchor="middle">Management Network 10.10.0.0/24</text>
+  <text class="detail" x="480" y="175" text-anchor="middle">Static IPs • SSH Control • API Endpoints</text>
+
+  <rect class="box" x="160" y="210" width="160" height="180" />
+  <text class="label" x="240" y="245" text-anchor="middle">Controller</text>
+  <text class="detail" x="240" y="270" text-anchor="middle">Keystone • Glance • Nova API</text>
+  <text class="detail" x="240" y="295" text-anchor="middle">Neutron Server • Horizon</text>
+  <text class="detail" x="240" y="320" text-anchor="middle">MariaDB • RabbitMQ</text>
+
+  <rect class="box" x="400" y="210" width="160" height="180" />
+  <text class="label" x="480" y="245" text-anchor="middle">Compute</text>
+  <text class="detail" x="480" y="270" text-anchor="middle">KVM • Libvirt</text>
+  <text class="detail" x="480" y="295" text-anchor="middle">Open vSwitch Agents</text>
+  <text class="detail" x="480" y="320" text-anchor="middle">HugePages • CPU Pinning</text>
+
+  <rect class="box" x="640" y="210" width="160" height="180" />
+  <text class="label" x="720" y="245" text-anchor="middle">Storage</text>
+  <text class="detail" x="720" y="270" text-anchor="middle">Cinder LVM • Glance Store</text>
+  <text class="detail" x="720" y="295" text-anchor="middle">Swift Proxy (optional)</text>
+  <text class="detail" x="720" y="320" text-anchor="middle">Backup Target</text>
+
+  <line class="arrow" x1="240" y1="210" x2="240" y2="180" />
+  <line class="arrow" x1="480" y1="210" x2="480" y2="180" />
+  <line class="arrow" x1="720" y1="210" x2="720" y2="180" />
+
+  <rect class="network" x="120" y="410" width="720" height="130" fill="#e3f2fd" stroke="#1565c0" />
+  <text class="label" x="480" y="445" text-anchor="middle" fill="#0d47a1">Provider / Tenant VLANs</text>
+  <text class="detail" x="480" y="470" text-anchor="middle" fill="#0d47a1">VXLAN Overlays • Floating IP Gateway • External Router</text>
+
+  <line class="arrow" x1="240" y1="390" x2="240" y2="410" stroke="#1565c0" marker-end="url(#arrowhead)" />
+  <line class="arrow" x1="480" y1="390" x2="480" y2="410" stroke="#1565c0" marker-end="url(#arrowhead)" />
+  <line class="arrow" x1="720" y1="390" x2="720" y2="410" stroke="#1565c0" marker-end="url(#arrowhead)" />
+
+  <rect class="box" x="420" y="470" width="120" height="60" fill="#fffde7" stroke="#f9a825" stroke-width="2.5" rx="12" ry="12" />
+  <text class="label" x="480" y="500" text-anchor="middle" fill="#f57f17">Tacker</text>
+  <text class="detail" x="480" y="525" text-anchor="middle" fill="#f57f17">NFVO + VNFM</text>
+</svg>

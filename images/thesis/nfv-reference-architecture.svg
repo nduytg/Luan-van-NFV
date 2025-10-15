@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 540">
+  <style>
+    .title { font: 700 32px 'DejaVu Sans', Arial, sans-serif; fill: #0b3d91; }
+    .subtitle { font: 600 22px 'DejaVu Sans', Arial, sans-serif; fill: #0b3d91; }
+    .label { font: 500 18px 'DejaVu Sans', Arial, sans-serif; fill: #1a1a1a; }
+    .note { font: 400 15px 'DejaVu Sans', Arial, sans-serif; fill: #444; }
+    .box { fill: #f5f7fb; stroke: #0b3d91; stroke-width: 2.5; rx: 12; ry: 12; }
+    .group { fill: #ffffff; stroke: #4f6fab; stroke-width: 2; rx: 14; ry: 14; }
+    .arrow { stroke: #4f6fab; stroke-width: 3; marker-end: url(#arrowhead); }
+    .legend { font: 600 16px 'DejaVu Sans', Arial, sans-serif; fill: #2f3b52; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="10" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#4f6fab" />
+    </marker>
+  </defs>
+  <rect class="group" x="40" y="80" width="880" height="400" fill="#eef1f8" stroke-dasharray="8 8" />
+  <text class="title" x="480" y="55" text-anchor="middle">ETSI NFV Reference Architecture</text>
+  <rect class="box" x="80" y="110" width="240" height="150" />
+  <text class="subtitle" x="200" y="140" text-anchor="middle">OSS / BSS</text>
+  <text class="note" x="200" y="170" text-anchor="middle">Service Catalog • Billing • Policies</text>
+  <text class="note" x="200" y="195" text-anchor="middle">Northbound APIs</text>
+
+  <rect class="box" x="360" y="110" width="240" height="150" />
+  <text class="subtitle" x="480" y="140" text-anchor="middle">NFV Orchestrator</text>
+  <text class="note" x="480" y="170" text-anchor="middle">NS Lifecycle • Resource Scheduling</text>
+  <text class="note" x="480" y="195" text-anchor="middle">Policy Enforcement</text>
+
+  <rect class="box" x="640" y="110" width="240" height="150" />
+  <text class="subtitle" x="760" y="140" text-anchor="middle">VNF Manager(s)</text>
+  <text class="note" x="760" y="170" text-anchor="middle">VNFD Parsing • Day-0/1/2 Actions</text>
+  <text class="note" x="760" y="195" text-anchor="middle">Scaling • Healing</text>
+
+  <rect class="box" x="80" y="300" width="300" height="150" />
+  <text class="subtitle" x="230" y="330" text-anchor="middle">NFV Infrastructure</text>
+  <text class="note" x="230" y="355" text-anchor="middle">Compute • Storage • Networking</text>
+  <text class="note" x="230" y="380" text-anchor="middle">Hypervisors • Virtual Switches</text>
+
+  <rect class="box" x="420" y="300" width="180" height="150" />
+  <text class="subtitle" x="510" y="330" text-anchor="middle">Virtualized</text>
+  <text class="subtitle" x="510" y="360" text-anchor="middle">Network</text>
+  <text class="subtitle" x="510" y="390" text-anchor="middle">Functions</text>
+  <text class="note" x="510" y="415" text-anchor="middle">vFW • vEPC • vIMS • vCDN</text>
+
+  <rect class="box" x="640" y="300" width="240" height="150" />
+  <text class="subtitle" x="760" y="330" text-anchor="middle">Service Assurance</text>
+  <text class="note" x="760" y="355" text-anchor="middle">Telemetry • Analytics • Alarms</text>
+  <text class="note" x="760" y="380" text-anchor="middle">Closed-loop Automation</text>
+
+  <line class="arrow" x1="200" y1="260" x2="230" y2="300" />
+  <line class="arrow" x1="480" y1="260" x2="510" y2="300" />
+  <line class="arrow" x1="760" y1="260" x2="760" y2="300" />
+  <line class="arrow" x1="380" y1="185" x2="320" y2="185" />
+  <line class="arrow" x1="620" y1="185" x2="580" y2="185" />
+  <line class="arrow" x1="480" y1="260" x2="760" y2="260" />
+
+  <rect x="100" y="420" width="760" height="40" fill="#ffffff" stroke="#4f6fab" stroke-dasharray="6 6" rx="10" ry="10" />
+  <text class="legend" x="120" y="446">Reference Points:</text>
+  <text class="legend" x="270" y="446">Or-Vnfm</text>
+  <text class="legend" x="360" y="446">Or-Vi</text>
+  <text class="legend" x="430" y="446">Vi-Vnfm</text>
+  <text class="legend" x="540" y="446">Ve-Vnfm</text>
+  <text class="legend" x="650" y="446">Os-Ma</text>
+  <text class="legend" x="760" y="446">Se-Ma</text>
+</svg>
