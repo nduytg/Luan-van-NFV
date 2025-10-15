@@ -1,11 +1,9 @@
-# Luận-văn-NFV-2017
-      *(´･ω･`) ( ´･ω･) (　´･ω) ( 　 ´･) ( 　　´) (　　　) (`　　 ) (･`　　) (ω･`　) (･ω･` ) (´･ω･`)
-      
-Luận văn tìm hiểu và triển khai mô hình thử nghiệm công nghệ Ảo hóa chức năng mạng (Network Function Virtualizaion - NFV) trên hạ tầng OpenStack. 
+# NFV Thesis Project
 
-Thực hiện: Trần Thành Công - Nguyễn Đức Duy (Khoa MMT&amp;VT - ĐH KHTN - ĐHQG TP.HCM)
+This repository accompanies the graduation thesis **"Network Function Virtualization Research and Experimental Deployment"** by Trần Thành Công and Nguyễn Đức Duy (Faculty of Information Technology, University of Science – VNU HCMC).
 
-Để tìm hiểu thêm về nội dung đề tài, xin xem phần [Wiki](https://github.com/nduytg/Luan-van-NFV/wiki/Gi%E1%BB%9Bi-thi%E1%BB%87u)
+- The thesis is available in English at [Thesis.md](Thesis.md), complete with recreated diagrams exported to the [`images/thesis`](images/thesis) gallery for easy reuse in presentations.
+- Supplementary lab notes for OPNFV and OpenBaton are preserved under the [`LAB`](LAB) directory.
+- SDN research notes are stored in the [`SDN`](SDN) folder.
 
-
-
+For historical context, the original Vietnamese wiki that supported this work is still hosted on GitHub: <https://github.com/nduytg/Luan-van-NFV/wiki/Gi%E1%BB%9Bi-thi%E1%BB%87u>.

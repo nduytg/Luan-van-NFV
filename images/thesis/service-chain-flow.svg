@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 360">
+  <style>
+    .title { font: 700 30px 'DejaVu Sans', Arial, sans-serif; fill: #6a1b9a; }
+    .stage { fill: #f3e5f5; stroke: #8e24aa; stroke-width: 2.5; rx: 20; ry: 20; }
+    .text { font: 600 18px 'DejaVu Sans', Arial, sans-serif; fill: #4a148c; }
+    .detail { font: 500 15px 'DejaVu Sans', Arial, sans-serif; fill: #4a148c; }
+    .arrow { stroke: #8e24aa; stroke-width: 4; marker-end: url(#arrowhead); }
+    .metric { font: 500 14px 'DejaVu Sans', Arial, sans-serif; fill: #1b5e20; }
+  </style>
+  <defs>
+    <marker id="arrowhead" markerWidth="12" markerHeight="8" refX="12" refY="4" orient="auto">
+      <polygon points="0 0, 12 4, 0 8" fill="#8e24aa" />
+    </marker>
+  </defs>
+  <text class="title" x="480" y="55" text-anchor="middle">Sample NFV Service Chain</text>
+
+  <rect class="stage" x="80" y="110" width="160" height="120" />
+  <text class="text" x="160" y="150" text-anchor="middle">Ingress</text>
+  <text class="detail" x="160" y="178" text-anchor="middle">Customer Edge</text>
+  <text class="detail" x="160" y="203" text-anchor="middle">Provider POP</text>
+
+  <rect class="stage" x="280" y="110" width="160" height="120" />
+  <text class="text" x="360" y="150" text-anchor="middle">vFirewall</text>
+  <text class="detail" x="360" y="178" text-anchor="middle">Stateful Filtering</text>
+  <text class="detail" x="360" y="203" text-anchor="middle">Security Policies</text>
+
+  <rect class="stage" x="480" y="110" width="160" height="120" />
+  <text class="text" x="560" y="150" text-anchor="middle">vLoad Balancer</text>
+  <text class="detail" x="560" y="178" text-anchor="middle">Layer-7 Steering</text>
+  <text class="detail" x="560" y="203" text-anchor="middle">Health Checks</text>
+
+  <rect class="stage" x="680" y="110" width="160" height="120" />
+  <text class="text" x="760" y="150" text-anchor="middle">vWeb Tier</text>
+  <text class="detail" x="760" y="178" text-anchor="middle">Auto-scaled Pool</text>
+  <text class="detail" x="760" y="203" text-anchor="middle">Application Logic</text>
+
+  <line class="arrow" x1="240" y1="170" x2="280" y2="170" />
+  <line class="arrow" x1="440" y1="170" x2="480" y2="170" />
+  <line class="arrow" x1="640" y1="170" x2="680" y2="170" />
+
+  <text class="metric" x="200" y="255" text-anchor="middle">VXLAN Encapsulation</text>
+  <text class="metric" x="400" y="255" text-anchor="middle">SFC Classifier</text>
+  <text class="metric" x="600" y="255" text-anchor="middle">OpenDaylight Renderer</text>
+  <text class="metric" x="800" y="255" text-anchor="middle">Telemetry Export</text>
+</svg>
